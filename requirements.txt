@@ -1,1 +1,3 @@
 ollama
+alpaca-py
+python-dotenv

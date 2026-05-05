@@ -1,3 +1,13 @@
 .env
 
 venv/
+
+# Environments
+.env
+
+# Python specific
+__pycache__/
+*.pyc
+
+# Mac specific (if you are on a Mac)
+.DS_Store
