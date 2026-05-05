@@ -29,7 +29,7 @@ Do NOT wrap the JSON in markdown code blocks. Do NOT output any conversational t
 """
 
 print("Agent is reading the news...")
-response = ollama.chat(model='llama3', messages=[
+response = ollama.chat(model='llama3.2:3b', messages=[
     {'role': 'system', 'content': system_prompt},
     {'role': 'user', 'content': daily_news}
 ])
